@@ -1,0 +1,97 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import '/form.css';
+@import '/button.css';
+
+
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0px;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 400;
+  padding-top: 5px;
+  color: #B37750;
+}
+
+.card > a {
+  text-decoration: none;
+  color: #B37750;
+}
+
+.card > a:hover {
+  color: #945730;
+  background-color: rgba(140, 192, 222, 0.692);
+
+}
+
+.banner {
+  width: 100vw;
+  height: 50px;
+  background-color: #F4BFBF;
+  margin-top: 0px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 5px;
+  width: 200px;
+  height: 300px;
+  background-color: #7ca9c498;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  color: #B37750;
+  border-right: solid #62a0c49a;
+  border-bottom: solid #62a0c49a;
+}
+
+
+
+.card-list {
+  flex-grow: 1;
+  padding: 3px;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-list-name {
+  font-weight: 500;
+  font-size: 24px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.card-list-address {
+  margin-bottom: 10px;
+}
+
+.card-list-description {
+  margin-bottom: 10px;
+  background-color: #BBDDF1;
+  padding: 5px 8px;
+  border-radius: 4px;
+
+}
+
+.card-list-description:hover {
+  box-shadow: 5px 5px 10px #404c53;
+}
+
+.card-list-price {
+  padding: 5px;
+  background-color: #3E7DA2;
+  border-radius: 3px;
+}

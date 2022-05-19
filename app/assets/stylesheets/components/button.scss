@@ -1,0 +1,83 @@
+.btn-back-btn {
+  margin-top: 5px;
+  padding: 10px 5px;
+  border-left: solid 5px #f36987;
+  border-bottom: solid 5px #f36987ab;
+  border-radius: 5px;
+  text-decoration: none;
+  // box-shadow: inset 0 -.2em 0 #f589a1;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn-back-btn:hover {
+  box-shadow: inset 0 -.4em 5px #f589a1;
+}
+
+.btn-edit {
+  margin-top: 5px;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 24px;
+  border-radius: 8px;
+  border-style: ridge;
+}
+
+.btn-edit:hover {
+  background-color: #221237;
+  color: #7ca9c498;
+}
+
+.btn-edit-2 {
+  margin-top: 5px;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 24px;
+  box-shadow: 3px 3px 5px #f5eae7 ;
+  border-bottom-right-radius: 10px 10px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.356), #61e294  25%, rgba(255, 255, 255, 0) 80%);
+  color: #2e4057;
+  font-weight: 200;
+}
+
+
+.btn-edit-2:hover {
+  box-shadow: 3px 3px 10px #2e4057;
+}
+
+.btn-edit-3 {
+  margin-top: 5px;
+  padding: 15px 10px;
+  text-decoration: underline #61e294 ;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 24px;
+
+  border-bottom-right-radius: 20px 10px;
+  color: #2e4057;
+  font-weight: 200;
+}
+
+.btn-edit-3:hover {
+
+  text-decoration-thickness: 4px;
+  text-shadow: 1px 1px 2px #83c9f5a9;
+}
+
+.btn-edit-4 {
+  margin-top: 5px;
+  padding: 20px 15px;
+  border-bottom-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+  background-color: #2e4057;
+  color: #f5eae7;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 0 0 10px lightslategray;
+}
+
+.btn-edit-4:hover {
+  box-shadow: 0 0 15px rgb(80, 88, 97);
+  border-bottom-left-radius: 20px 10px;
+}
